@@ -1,0 +1,15 @@
+#include <iostream>
+#include <ctime>
+#include <time.h>
+#include <windows.h>
+#include <cstdlib>
+
+using namescape std;
+int liczba;
+int main()
+{
+    srand (time(NULL));
+    cout<< "Numer: "<< rand()%33 << endl;
+    return 0;
+}
+
